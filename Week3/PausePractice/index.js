@@ -1,21 +1,12 @@
-const xhr = new XMLHttpRequest()
-// method
-xhr.open("GET", "https://pokeapi.co/api/v2/pokemon/", true )
-xhr.send()
+const names = ["steve", "larry", "joe", "shirley", "steph", "nate", "rick", "emily"]
 
-xhr.onreadystatechange = function(){
-	if(xhr.readyState === 4 && xhr.status === 200){
-		const JSONdata = xhr.responseText
-		const data = JSON.parse(JSONdata)
-		showData(data.results)
-	}
-}
-function showData(arr){
-	for( let i = 0; i < arr.length; i++){
-	const h1 = document.createElement('h1')
-	h1.textContent = arr[i].name
-	document.body.appendChild(h1)
-}
-}
 
-//https://api.vschool.io/pokemon
+
+for(let i = 0; i < names.length; i++){
+    var h1 = document.createElement("h1")
+    h1.innerHTML = names[i]
+    document.body.appendChild(h1)
+    
+}
+document.querySelector("h1")
+h1.color = "blue"
