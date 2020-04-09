@@ -1,1 +1,1 @@
-fconsole.log(document)
+console.log(document)
