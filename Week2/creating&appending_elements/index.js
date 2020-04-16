@@ -11,13 +11,13 @@ document.body.append((newP))
 var myList = document.createElement("ol")
 
 var newli1 = document.createElement("li")
-newli1.textContent = "fist item"
+newli1.textContent = "Fist item !!!"
 
 var newLi2 = document.createElement('li')
-newLi2.textContent = "second Item"
+newLi2.textContent = "Second Item !!!"
 
 var newLi3 = document.createElement("li")
-newLi3.textContent = "third item"
+newLi3.textContent = "Third item!!!"
 
 document.querySelector("myList")
 myList.append(newli1, newLi2, newLi3)
