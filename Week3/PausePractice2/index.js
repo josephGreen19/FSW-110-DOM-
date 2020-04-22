@@ -28,4 +28,4 @@ h1.style.fontWeight = "lighter";
 h1.style.fontFamily = "sans-serif";
 h1.style.color = "cornflowerblue"
 //
-document.getElementById("h1").classList.add(".border"
+document.getElementById("h1").classList.add(".border")
