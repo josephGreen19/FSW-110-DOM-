@@ -9,4 +9,4 @@ for(let i = 0; i < names.length; i++){
     
 }
 document.querySelector("h1")
-h1.color = "blue"
+h1.style.fontSize = "40px"
