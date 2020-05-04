@@ -1,5 +1,5 @@
  document.getElementById("box").addEventListener("dblclick", function(){
-    box.style.backgroundColor = "green"
+    box.style.backgroundColor = "green
  })
 
  document.getElementById("box").addEventListener("mousedown", function(){

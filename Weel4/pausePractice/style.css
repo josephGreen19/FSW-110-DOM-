@@ -1,8 +1,9 @@
 #box {
     height: 250px;
     width: 250px;
-    border: solid black 2px;
-    
-    
+    border: solid black 2px;   
   }
+  div {
+    text-align: center;
+  
   
