@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Flight Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Green <span>Flight</span></h1>
+    </header>
+    <h2>Travel Form</h2>
+    <div id= "container">
+        <form name="myForm">
+            First Name: <input name="fname" placeholder="blah" size="50"><br><br>
+            Last Name: <input name="lname" placeholder="blah" size="50"><br><br>
+            Age:<input type="number" name="age" placeholder="blah" id="ageOf"><br><br>
+            Male: <input type="radio" name="gender" value="Male">
+            Female: <input type="radio" name="gender" value="Female">
+            Prefer not to say: <input type="radio" name="gender" value="Prefer not to say"><br><br>
+            <select name="place">
+                <option value="New York">New York</option>
+                <option value="Washington">Washington</option>
+                <option value="Boston">Boston</option>
+                <option value="Uganda">Uganda</option>
+            </select><br><br>
+            Vegetarian: <input type="checkbox" name="meal" value="Vegetarian">
+            Kosher: <input type="checkbox" name="meal" value="Kosher">
+            Lactose free: <input type="checkbox" name="meal" value="Lactose free">
+            Gluten free: <input type="checkbox" name="meal" value="Gluten free">
+            <button>Submit</button>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

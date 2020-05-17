@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url(sky.jpg);
+}
+header {
+    background-color: lightblue;
+    height: 250px;
+    padding-top: 50px;
+}
+h1 {
+    text-align: center;
+    color: green;
+    font-size: 100px;
+}
+span {
+    color: black;
+}
+h2 {
+    font-size: 30px;
+    text-align: center;
+}
+#container {
+    margin-left: 25%;
+    text-align: left;
+    width: 50%;
+    border-radius: 5px;
+    background-color:lightgray;
+    padding: 20px;
+}
+input {
+   text-align: left;
+    padding: 12px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+button {
+    background-color: #4caf50;
+    color: white;
+    font-weight: bolder;
+    padding: 12px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
+#ageOf {
+    padding-left: 270px;
+}
