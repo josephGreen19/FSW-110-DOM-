@@ -1,0 +1,86 @@
+header {
+    text-align: center;
+    padding: 50px;
+}
+
+
+
+#container {
+    
+    display: flex;
+  }
+  #container.space-around {
+    justify-content: space-around;
+  }
+  #container.space-between {  
+    justify-content: space-between;
+  }
+  #baddie1 {
+      
+      padding-left: 500px;
+      
+  }
+  #baddie2 {
+    padding-left: 100px;
+}
+#baddie3 {
+    padding-left: 100px;
+}
+input[type=number] {
+    background-color: lightblue;
+}
+button {
+    background-color: lightcoral;
+}
+#box1 {
+   
+    background-color: red;
+    height: 100px;
+}
+#box2 {
+   
+    background-color: blue;
+    height: 100px;
+}
+#box3 {
+   
+    background-color: red;
+    height: 100px;
+}
+h3 {
+    padding-left: 50px;
+    padding-top: 35px;
+}
+h4 {
+    font-size: 20px;
+}
+p {margin:0;}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            
+
+   
+}
+#foot1 {
+    float:left;
+    width:200px;
+    height:100px;
+    margin-right:15px;
+    
+}
+#foot2 {
+    float:left;
+    width:200px;
+    height:100px;
+    margin-right:15px;
+    
+}
+#foot3 {
+    float: left;;
+    width:200px;
+    height:100px;
+    margin-right:15px;
+}
